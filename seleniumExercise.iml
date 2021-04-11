@@ -10,14 +10,14 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Downloads/Selenium Downloads/jars and drivers" />
+          <root url="file://$USER_HOME$/Documents/GitHub/seleniumExercise/jars and drivers" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/Downloads/Selenium Downloads/jars and drivers" />
+          <root url="file://$USER_HOME$/Documents/GitHub/seleniumExercise/jars and drivers" />
         </SOURCES>
-        <jarDirectory url="file://$USER_HOME$/Downloads/Selenium Downloads/jars and drivers" recursive="false" />
-        <jarDirectory url="file://$USER_HOME$/Downloads/Selenium Downloads/jars and drivers" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://$USER_HOME$/Documents/GitHub/seleniumExercise/jars and drivers" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Documents/GitHub/seleniumExercise/jars and drivers" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
