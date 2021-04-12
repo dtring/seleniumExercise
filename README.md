@@ -3,7 +3,6 @@
 First test exercise for running a Selenium. 
 
 Task:
-I can give you an exercise write a method that:
 .	navigates to the site to bidjs demo site
 .	clicks Login button
 .	enters username and password
