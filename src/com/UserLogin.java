@@ -13,6 +13,7 @@ public class UserLogin {
         }
 
         public static void method() throws InterruptedException {
+                //method starts here
                 System.setProperty("webdriver.chrome.driver", "/Users/dtring/Downloads/Selenium Downloads/chromedriver");
                 ChromeDriver driver = new ChromeDriver();
 
@@ -49,12 +50,12 @@ public class UserLogin {
 
                 WebElement identifier = driver.findElement(By.id("identifier"));
                 identifier.sendKeys("admin_demo");
-                //verify entered text & Print success
+                //confirm entered text & Print success
                 System.out.println("username entry successful");
 
                 WebElement password = driver.findElement(By.id("password"));
                 password.sendKeys ("5unSh1ne");
-                //verify entered text & Print success
+                //confirm entered text & Print success
                 System.out.println("password entry successful");
 
                 Thread.sleep(2000);
@@ -63,6 +64,7 @@ public class UserLogin {
                 submit.click();
                 Thread.sleep(5000);
                 String urlLoggedIn = driver.getCurrentUrl();
+                //confirm submission
                 if (urlLoggedIn.endsWith("/demo/#!/"))   {
                         System.out.println("logged in page load successful");
                 }
@@ -71,7 +73,7 @@ public class UserLogin {
                 }
 
                 String loginSuccess = driver.findElement(By.className("x-bidlogix--templated-user")).getText();
-                //System.out.println(loginSuccess);
+                //confirm username i.e. logged in successfully
                 if (loginSuccess.startsWith("Admin_demo"))   {
                         System.out.println("login successful");
                 }
